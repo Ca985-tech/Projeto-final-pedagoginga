@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="drawable/jogo_da_velha_icon.png">
+    <script defer src="js/script.js"></script>
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <div id="game">
+        <h1>jogo da velha</h1>
+        <!-- tabuleiro com 9 espaços -->    
+        <div id="board">
+            <div class="cell" data-index="0"></div>     
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <!-- status do jogo e botão de reiniciar -->        
+        <p id="status">vez do jogador x</p>
+        <button id="restart">reiniciar jogo</button>
+</body>
+</html>
